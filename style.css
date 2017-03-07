@@ -1,0 +1,33 @@
+		span  /*elemnt wise*/
+		{
+			background-color: yellow;
+		}
+
+		div
+		{
+			font-size: 20px;
+		}	 
+
+		.cls /*class wise*/
+		{
+			font-family: Tahoma;
+		}
+
+		#div2 /*id wise*/
+		{
+			background-color: blue;
+		}
+
+		* , html,body
+		{
+			font-family: verdana;
+		}
+		div,p , #id1 , .cls2
+		{
+			background-color: gray;	
+		}
+
+		ul li span   /* #id1 .cls span */
+		{
+			font-size: 12px;
+		}
