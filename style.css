@@ -1,4 +1,4 @@
-		span  /*elemnt wise*/
+/*		span  /*elemnt wise
 		{
 			background-color: yellow;
 		}
@@ -8,12 +8,12 @@
 			font-size: 20px;
 		}	 
 
-		.cls /*class wise*/
+		.cls /*class wise
 		{
 			font-family: Tahoma;
 		}
 
-		#div2 /*id wise*/
+		#div2 /*id wise
 		{
 			background-color: blue;
 		}
@@ -27,7 +27,50 @@
 			background-color: gray;	
 		}
 
-		ul li span   /* #id1 .cls span */
+		ul li span   /* #id1 .cls span 
 		{
 			font-size: 12px;
 		}
+*/
+
+	body
+	{	
+		/*name , hex code, rgb code*/
+		/*background-color: rgb(128,125,75);   /*#FFFFFF;    /*yellow; */
+
+		/*background: url(./jellyfish.jpg);
+		background-repeat: no-repeat repeat-x;
+		background-size: 100% 100%;
+		background-attachment: fixed;c
+*/
+
+	}
+
+	div
+	{
+		background-color: yellow;
+		height: 100px;
+		width: 200px;
+		padding: 10px 5px 10px 20px ;
+		border:1px dashed black;
+		margin: 10px;
+		float: right;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
