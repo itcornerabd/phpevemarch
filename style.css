@@ -46,6 +46,11 @@
 
 	}
 
+	body
+	{
+		font-size: 20px;
+	}		
+
 	div
 	{
 		background-color: yellow;
@@ -54,12 +59,31 @@
 		padding: 10px 5px 10px 20px ;
 		border:1px dashed black;
 		margin: 10px;
-		float: right;
+		float: left;
+		overflow: auto; /*scroll;*/ /*hidden;*/
+		font-size: 1em; /* px  inch cm  */	
+		font-family: tahoma;
+		color:blue; 	
 	}
 
+	#div4
+	{
+		position: fixed; /*absolute*/
+		top:100px;
+		right: 50px;
+		/*transform: rotate(67deg);*/	
+		/*transform: skew(45deg,10deg);*/	
+		width: 200px;
+		transition: background-color 3s , transform 5s; 
+	}	
 
 
-
+	#div4:hover
+	{
+		
+		transform: rotate(180deg);
+		background-color: red;		
+	}	
 
 
 
